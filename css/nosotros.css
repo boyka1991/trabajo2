@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+
+}
+body{
+    background-color:rgba(26, 44, 44, 0.815);
+    margin-right: 5%;
+}
+.head{
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    color: beige;
+}
+.menu{     
+    margin-top: 20px;
+    list-style: none;
+    width: 20%;
+    float: left;
+    font-family: sans-serif;
+    font-size: x-large;
+      
+}
+.menu li a{
+    text-decoration: none;
+    color: beige;   
+}
+li a:hover{
+    color: gray;
+}
+.contenido{
+    list-style: none;
+    width: 80%;
+    color: beige;
+    float: left; 
+}
+.footter{
+    font-family: sans-serif;
+    color: beige;
+    font-size: medium;
+    float: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.m1{
+    background-color:slategray;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 10%;
+    padding: 3%;
+}
+.m2{
+    background-color:darkgoldenrod;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 3%;
+}
+.m3{
+    background-color:chocolate;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 3%;
+}
+.m4{
+    background-color:crimson;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 3%;
+}
+table{
+    text-align: justify;
+}
+.map{
+    background-color:lightcoral;
+    padding: 17px;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: left;
+}
+table td a{
+    color: beige;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+table td a:hover{
+    background-color: darkolivegreen;
+
+}
+table td p{
+    color: beige;
+    text-align: justify;
+    margin-left: 20px;
+    font-size: large;
+}
+.ani{
+    background-color:lightcoral;
+    padding: 10px;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+
+/* media query*/
+@media (max-width:600px){
+    .menu{
+        font-family:  sans-serif;
+        font-size: 15px;
+        width: 100px;
+        float: left;      
+    } 
+    .contenido{
+        font-family:  sans-serif;    
+        margin: 5px;
+        width: 200%;
+        height: 300%;
+    }
+
+    /*.footter{
+        font-family: sans-serif;
+        color: beige;
+        font-size: medium;
+        float: center;
+        text-align: center;
+        border-radius: 10px 0px 10px 0px;
+        width: 350px;
+    }*/
+    
+   
+  
+}
+

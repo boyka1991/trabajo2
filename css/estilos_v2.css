@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+
+}
+body{
+    background-color:rgba(26, 44, 44, 0.815);
+    margin-right: 5%;
+}
+.head{
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    color: beige;
+}
+.menu{     
+    margin-top: 20px;
+    list-style: none;
+    width: 20%;
+    float: left;
+    font-family: sans-serif;
+    font-size: x-large;
+      
+}
+.menu li a{
+    text-decoration: none;
+    color: beige;   
+}
+li a:hover{
+    color: gray;
+}
+.contenido{
+    list-style: none;
+    width: 80%;
+    color: beige;
+    float: left; 
+}
+.art1{
+    background-color:rgba(0, 215, 243, 0.712);
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 7%;
+}
+.art2{
+    background-color:rgba(255, 221, 0, 0.973);
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 7%;
+}
+.art3{
+    background-color:rgba(255, 123, 0, 0.925);
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 7%;
+}
+.art4{
+    background-color:rgba(255, 0, 17, 0.877);
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 7%;
+}
+/*cambios en text-align y float */
+.footter{
+    font-family: sans-serif;
+    color: beige;
+    font-size: medium;
+    float: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.m1{
+    background-color:slategray;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 3%;
+}
+.m2{
+    background-color:darkgoldenrod;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 3%;
+}
+.m3{
+    background-color:chocolate;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 3%;
+}
+.m4{
+    background-color:crimson;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 25%;
+    padding: 3%;
+}
+table{
+    text-align: justify;
+}
+.map{
+    background-color:lightcoral;
+    padding: 17px;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: left;
+}
+table td a{
+    color: beige;
+    text-decoration: none;
+    text-align:right;
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-left: 30px;
+}
+table td  a:hover{
+    background-color: darkolivegreen;
+    
+
+}
+table td p{
+    color: beige;
+    text-align: left;
+    margin-left: 20px;
+}
+.ani{
+    background-color:lightcoral;
+    padding: 10px;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+/* -------- modificacion de los estilos dep. del dispositivo */
+/* media query*/
+@media (max-width:600px){
+    .menu{
+        font-family:  sans-serif;
+        font-size: 15px;
+        width: 100px;
+        float: left;      
+    }  
+   h1{
+       text-align: center;
+   }
+    .contenido{
+        font-family:  sans-serif;
+        font-size: 10px;
+        width: 120px;
+        float: center;
+        margin: 5px;
+    }
+    .art1{
+        background-color:rgba(0, 215, 243, 0.712);
+        font-family:  sans-serif;
+        font-size: medium;
+        width: 210px; /*ancho cuadro color*/
+        float: center;
+        margin: 5px;
+        text-align: left; /*texto a la izquierda*/
+     }
+    .art2{
+        background-color:rgba(255, 221, 0, 0.973);
+        font-family:  sans-serif;
+        font-size: medium;
+        width: 210px; 
+        float: center;
+        margin: 5px;
+        text-align: left; 
+    }
+    .art3{
+        background-color:rgba(255, 123, 0, 0.925);
+        font-family:  sans-serif;
+        font-size: medium;
+        width: 210px; 
+        float: center;
+        margin: 5px;
+        text-align: left; 
+    }
+    .art4{
+        background-color:rgba(255, 0, 17, 0.877);
+        font-family:  sans-serif;
+        font-size: medium;
+        width: 210px; 
+        float: center;
+        margin: 5px;
+        text-align: left; 
+    }
+    /*arreglar
+    .footter{
+        font-family: sans-serif;
+        color: beige;
+        font-size: medium;
+        float: center;
+        text-align: justify;
+        margin-top: 20px;
+    }
+    */
+
+    .m1{
+        background-color:slategray;
+        font-family: sans-serif;
+        font-size: medium;
+        text-align: left;
+        height: 25%;
+        padding: 3%;
+        width: 500px;
+    }
+    
+    .m2{
+        background-color:darkgoldenrod;
+        font-family: sans-serif;
+        font-size: medium;
+        text-align: left;
+        height: 25%;
+        padding: 3%;
+        width: 500px;
+        
+    }
+
+    .m3{
+        background-color:chocolate;
+        font-family: sans-serif;
+        font-size: medium;
+        text-align: left;
+        height: 25%;
+        padding: 3%;
+        width: 500px;
+    }
+    .m4{
+        background-color:crimson;
+        font-family: sans-serif;
+        font-size: medium;
+        text-align: left;
+        height: 25%;
+        padding: 3%;
+        width: 500px;
+    }
+    .map{
+        background-color:lightcoral;
+        font-family: sans-serif;
+        text-align: left;
+        width: 1000%;
+        height: 150%;
+}
+}
